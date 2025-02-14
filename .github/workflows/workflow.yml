@@ -1,0 +1,22 @@
+name: pages directory listing
+on: [push]
+
+jobs:
+  pages-directory-listing-release:
+    runs-on: ubuntu-latest
+    name: Actions Template
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Generate Directory Listings
+        uses: jayanta525/github-pages-directory-listing@main
+        with:
+          FOLDER: fixtures
+
+      - name: Deploy to Pages
+        uses: JamesIves/github-pages-deploy-action@v4.6.8
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages-index
+          FOLDER: fixtures
