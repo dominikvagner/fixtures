@@ -17,11 +17,12 @@ These repositories were created for testing comps groups and module streams meta
 | Avians | Birds |
 
 ### Module Streams
-|Module Name| Stream  |
-|--|--|
-| Kangaroo | 0 |
-| Duck     | 0 |
-| Walrus   | 0.71 |
+| Module Name         | Stream  |
+|---------------------|--|
+| Kangaroo (for v0.2) | 0 |
+| Kangaroo (for v0.3) | 0 |
+| Duck                | 0 |
+| Walrus              | 0.71 |
 
 ## v2
 

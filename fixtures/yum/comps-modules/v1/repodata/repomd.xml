@@ -34,11 +34,11 @@
     <open-size>930</open-size>
   </data>
   <data type="modules">
-    <checksum type="sha256">5845e48b4e1714cf4e9dc7a429a9a74a9b8d7c5e496ab5ad8825fa466fcef510</checksum>
-    <open-checksum type="sha256">f7e3015e6702ead025ced1df031a04e9bf6c1bb0a75522ed64ad99fd2c5fff26</open-checksum>
-    <location href="repodata/5845e48b4e1714cf4e9dc7a429a9a74a9b8d7c5e496ab5ad8825fa466fcef510-modules.yaml.zst"/>
-    <timestamp>1738962850</timestamp>
-    <size>480</size>
-    <open-size>1955</open-size>
+    <checksum type="sha256">e9d344bfb7db9c1aa711198200dfe1adf21adaa04e094252608b7fbd3c68a877</checksum>
+    <open-checksum type="sha256">e17c188b5aa20a964de182c4315b06a25a49a8a8fd0829309e0c7d668367a52b</open-checksum>
+    <location href="repodata/e9d344bfb7db9c1aa711198200dfe1adf21adaa04e094252608b7fbd3c68a877-modules.yaml.zst"/>
+    <timestamp>1739900223</timestamp>
+    <size>467</size>
+    <open-size>1969</open-size>
   </data>
 </repomd>

@@ -37,7 +37,7 @@ modifyrepo my_repository/repodata/modules.yaml my_repository/repodata/
 ### 5. (Optional) To add comps groups
 1. Create a `comps.xml` file and place it in `~/path/to/my_repository/repodata/`. This must include all the comps metadata.
 
-2. Associate the modules with the existing metadata
+2. Associate the comps with the existing metadata
 ```
 createrepo -g repodata/comps.xml my_repository
 ```
