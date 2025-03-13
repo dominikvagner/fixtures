@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+   <id>birds</id>
+   <default>true</default>
+   <uservisible>true</uservisible>
+   <display_order>1024</display_order>
+   <name>birds</name>
+   <description>birds</description>
+    <packagelist>
+      <packagereq type="mandatory">cockateel</packagereq>
+      <packagereq type="mandatory">penguin</packagereq>
+      <packagereq type="mandatory">duck</packagereq>
+    </packagelist>
+  </group>
+  <group>
+   <id>mammals</id>
+   <default>true</default>
+   <uservisible>true</uservisible>
+   <display_order>1024</display_order>
+   <name>mammals</name>
+   <description></description>
+    <packagelist>
+      <packagereq type="mandatory">bear</packagereq>
+      <packagereq type="mandatory">cat</packagereq>
+    </packagelist>
+  </group>
+  <environment>
+   <id>avians</id>
+   <display_order>99</display_order>
+   <name>avians</name>
+   <description>avians</description>
+    <grouplist>
+     <groupid>birds</groupid>
+    </grouplist>
+  </environment>
+  <environment>
+   <id>animals</id>
+   <display_order>99</display_order>
+   <name>animals</name>
+   <description>animals</description>
+    <grouplist>
+     <groupid>birds</groupid>
+     <groupid>mammals</groupid>
+    </grouplist>
+  </environment>
+  <langpacks>
+    <match install="gorilla-%s" name="gorilla-en"/>
+    <match install="zebra-%s" name="zebra-docs"/>
+  </langpacks>
+</comps>
