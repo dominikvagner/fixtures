@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repomd xmlns="http://linux.duke.edu/metadata/repo" xmlns:rpm="http://linux.duke.edu/metadata/rpm">
+  <revision>1741869892</revision>
+  <data type="primary">
+    <checksum type="sha256">c04dce9d85aa60963ece3be416ba147ab301ba7d9bbe39f71873a372eb942463</checksum>
+    <open-checksum type="sha256">0a8d80aa0fa6e5296a56d849ef56ea101d14bbceb8681bf224dc9157e9dbe4f1</open-checksum>
+    <location href="repodata/c04dce9d85aa60963ece3be416ba147ab301ba7d9bbe39f71873a372eb942463-primary.xml.zst"/>
+    <timestamp>1741869892</timestamp>
+    <size>869</size>
+    <open-size>3223</open-size>
+  </data>
+  <data type="filelists">
+    <checksum type="sha256">8e76f8110ea833567394c98e2e8bbe934a6c4ca5e1c121b4e3db2533e82cee5c</checksum>
+    <open-checksum type="sha256">4cda1e62e49c424036e33d6a351c83695d926fc35f15b261b34f7142c1e4bfb5</open-checksum>
+    <location href="repodata/8e76f8110ea833567394c98e2e8bbe934a6c4ca5e1c121b4e3db2533e82cee5c-filelists.xml.zst"/>
+    <timestamp>1741869892</timestamp>
+    <size>373</size>
+    <open-size>716</open-size>
+  </data>
+  <data type="other">
+    <checksum type="sha256">2551e0fd67f8e472969bf50fdf67cbf34b2da52c9480bfa2a69f6a1d0c61dcda</checksum>
+    <open-checksum type="sha256">37cf3fe9b455416212dcb09495c6c7c41f8725c349a64ccd6d97c89941d5468b</open-checksum>
+    <location href="repodata/2551e0fd67f8e472969bf50fdf67cbf34b2da52c9480bfa2a69f6a1d0c61dcda-other.xml.zst"/>
+    <timestamp>1741869892</timestamp>
+    <size>345</size>
+    <open-size>615</open-size>
+  </data>
+</repomd>
